@@ -1,0 +1,18 @@
+@import "tailwindcss";
+body { font-family: sans-serif; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add this to your global CSS */
+.main-content {
+  margin-left: 0;
+  transition: margin-left 0.3s ease;
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    margin-left: 16rem; /* 64 * 0.25rem = 16rem */
+  }
+}
