@@ -12,7 +12,7 @@ const AboutUs = () => {
             <div className="absolute -bottom-1 left-0 w-16 h-1 bg-blue-500"></div>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mt-4 mb-6 text-gray-900 leading-tight">
-            I'm <span className="text-blue-600">Robert Elisc</span>, Web Designer & Developer
+            I'm <span className="text-blue-600">Divyesh Mer</span>, Web Designer & Developer
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
             Creating digital experiences that are beautiful, functional, and user-focused.
@@ -34,20 +34,20 @@ const AboutUs = () => {
       {/* Stats Section */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
         <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm text-center">
-          <p className="text-4xl font-bold text-blue-600 mb-2">20+</p>
+          <p className="text-4xl font-bold text-blue-600 mb-2">2+</p>
           <p className="text-gray-600">Years Experience</p>
         </div>
         <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm text-center">
-          <p className="text-4xl font-bold text-purple-600 mb-2">150+</p>
+          <p className="text-4xl font-bold text-purple-600 mb-2">15+</p>
           <p className="text-gray-600">Projects Completed</p>
         </div>
         <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm text-center">
-          <p className="text-4xl font-bold text-indigo-600 mb-2">80+</p>
+          <p className="text-4xl font-bold text-indigo-600 mb-2">5+</p>
           <p className="text-gray-600">Happy Clients</p>
         </div>
         <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm text-center">
-          <p className="text-4xl font-bold text-blue-600 mb-2">12</p>
-          <p className="text-gray-600">Awards Won</p>
+          <p className="text-4xl font-bold text-blue-600 mb-2">12+</p>
+          <p className="text-gray-600">Technical certification </p>
         </div>
       </div>
 
@@ -65,14 +65,12 @@ const AboutUs = () => {
               I'm a passionate web designer and developer with two decades of experience creating digital solutions that matter. My approach combines aesthetic sensibility with technical expertise to deliver products that users love.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              When I'm not designing or coding, you'll find me mentoring young designers, contributing to open-source projects, or exploring the latest design trends and technologies.
+               enjoy writing clean, maintainable code and turning complex problems into simple, elegant solutions—whether it's building reusable components, integrating APIs, or optimizing performance for modern web apps.
             </p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4 text-gray-800">My Philosophy</h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
-              I believe great design solves problems. Every pixel, interaction, and line of code should serve a purpose. My process is collaborative, iterative, and always user-centered.
-            </p>
+           
             <div className="space-y-4">
               <div className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
@@ -112,12 +110,12 @@ const AboutUs = () => {
             </div>
             <div className="bg-white p-8 rounded-xl border border-gray-100 shadow-sm">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                <h3 className="text-xl font-bold text-gray-900">Senior Web Developer</h3>
-                <span className="text-blue-600 font-medium mt-1 md:mt-0">2018 - Present</span>
+                <h3 className="text-xl font-bold text-gray-900"> Web Developer Intern </h3>
+                <span className="text-blue-600 font-medium mt-1 md:mt-0">2015</span>
               </div>
-              <p className="text-purple-600 font-medium mb-3">Envato Market</p>
+              <p className="text-purple-600 font-medium mb-3">Intern Certify </p>
               <p className="text-gray-600">
-                Lead developer for premium WordPress themes and web applications. Implemented modern workflows and mentored junior developers.
+               Collaborated with the team to develop and optimize front-end components and improve website performance.
               </p>
             </div>
           </div>
@@ -129,32 +127,19 @@ const AboutUs = () => {
             </div>
             <div className="bg-white p-8 rounded-xl border border-gray-100 shadow-sm">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                <h3 className="text-xl font-bold text-gray-900">UX Designer</h3>
-                <span className="text-blue-600 font-medium mt-1 md:mt-0">2015 - 2016</span>
+                <h3 className="text-xl font-bold text-gray-900">Web Developer</h3>
+                <span className="text-blue-600 font-medium mt-1 md:mt-0">2021 - 2022</span>
               </div>
-              <p className="text-purple-600 font-medium mb-3">Colorlib</p>
+              <p className="text-purple-600 font-medium mb-3">Upwork</p>
               <p className="text-gray-600">
-                Designed intuitive user interfaces for web templates with a focus on accessibility and mobile-first principles.
+                Designed and developed custom websites for clients using React.js, Tailwind CSS, and JavaScript, ensuring responsive and SEO-friendly layouts.
+Delivered full front-end solutions including UI components, form validations, and API integrations.
               </p>
             </div>
           </div>
           
           {/* Timeline Item 3 */}
-          <div className="relative pl-0 md:pl-20 mb-12">
-            <div className="hidden md:flex absolute left-0 top-0 w-12 h-12 rounded-full bg-indigo-500 items-center justify-center text-white font-bold shadow-lg">
-              03
-            </div>
-            <div className="bg-white p-8 rounded-xl border border-gray-100 shadow-sm">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                <h3 className="text-xl font-bold text-gray-900">Senior Designer</h3>
-                <span className="text-blue-600 font-medium mt-1 md:mt-0">2016 - 2018</span>
-              </div>
-              <p className="text-purple-600 font-medium mb-3">ABC Studio</p>
-              <p className="text-gray-600">
-                Oversaw all design projects from concept to completion, establishing brand guidelines and design systems.
-              </p>
-            </div>
-          </div>
+         
         </div>
       </div>
 

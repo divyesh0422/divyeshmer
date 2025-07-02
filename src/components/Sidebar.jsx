@@ -23,7 +23,9 @@ const Sidebar = () => {
   const navItems = [
     { name: 'Home', path: '/', icon: <FiHome size={20} /> },
     { name: 'About', path: '/about', icon: <FiUser size={20} /> },
+      { name: 'Services', path: '/Services', icon: <FiFileText size={20} /> },
     { name: 'Portfolio', path: '/portfolio', icon: <FiBriefcase size={20} /> },
+  
     { name: 'Blog', path: '/blog', icon: <FiFileText size={20} /> },
     { name: 'Contact', path: '/contact', icon: <FiMail size={20} /> },
   ];
@@ -63,7 +65,7 @@ const Sidebar = () => {
             to="/" 
             className="text-2xl font-bold text-gray-800 mb-10 mt-4 hover:text-blue-600 transition-colors"
           >
-            John Doe
+          Divyesh Mer
           </Link>
 
           {/* Navigation */}
