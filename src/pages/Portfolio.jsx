@@ -20,13 +20,13 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: "Health & Fitness App",
-      category: "Mobile Apps",
-      description: "Cross-platform mobile application for workout tracking and nutrition planning",
-      tags: ["React Native", "Firebase"],
+      title: "Habits & tracking-app",
+      category: "Development",
+      description: "Cross-platform Web application for workout tracking and nutrition planning",
+      tags: ["React ", "tailwindcss"," react-router"],
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      link: "#",
-      github: "#"
+      link: "https://eon-habits-tracking-app.vercel.app/",
+      github: "https://github.com/divyesh0422/EonHabits_Tracking_App"
     },
     {
       id: 3,
@@ -64,7 +64,7 @@ const Portfolio = () => {
       category: "Mobile Apps",
       description: "Secure banking application with biometric authentication",
       tags: ["Flutter", "Dart", "Node.js"],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      image:"https://plus.unsplash.com/premium_photo-1712761997872-2963252bc19d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "#",
       github: "#"
     }
@@ -189,8 +189,8 @@ const Portfolio = () => {
 
           {/* Load More Button */}
           <div className="text-center mt-12">
-            <button className="border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-medium transition duration-300">
-              Load More Projects
+            <button className="border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-medium transition duration-300 cursor-pointer">
+             <a href="https://github.com/divyesh0422">Load More Projects</a> 
             </button>
           </div>
         </div>
@@ -203,7 +203,7 @@ const Portfolio = () => {
           <p className="text-blue-100 max-w-2xl mx-auto mb-8">
             I'm currently accepting new projects. Let's discuss how I can help bring your ideas to life.
           </p>
-          <button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-medium shadow-lg transition duration-300">
+          <button className="bg-white cursor-pointer text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-medium shadow-lg transition duration-300">
             Get in Touch
           </button>
         </div>
