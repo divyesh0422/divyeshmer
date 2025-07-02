@@ -25,7 +25,7 @@ const Home = () => {
           </h1>
 
           <p className="text-gray-600 text-lg">
-            I'm a Divyesh Mer web designer & front-end developer with {"React"}
+            I'm  Divyesh Mer web designer & front-end developer with {"React"}
             <span className="text-indigo-400"> 2+ years</span> of experience
           </p>
 

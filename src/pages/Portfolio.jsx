@@ -32,8 +32,8 @@ const Portfolio = () => {
       id: 3,
       title: "Online Learning Webside",
       category: "Web Design",
-      description: "Modern redesign for a financial services company focusing on user experience",
-      tags: ["Figma", "WordPress", "GSAP"],
+      description: "Master in-demand skills with our expert-led courses. Learn at your own pace and transform your career.",
+      tags: ["Figma", "tailwindcss", "GSAP"],
       image: "https://plus.unsplash.com/premium_photo-1661767552224-ef72bb6b671f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGVkdWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
       link: "https://edu-pasd.vercel.app/",
       github: "https://github.com/divyesh0422/edu-pasd"

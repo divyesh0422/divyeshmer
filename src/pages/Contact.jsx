@@ -12,11 +12,11 @@ function Contact() {
             </p>
 
             <div className="space-y-2">
-              <p className="font-bold text-lg">+77 022 444 05 05</p>
+              <p className="font-bold text-lg">+91 7490804668</p>
               <a href="mailto:support@elisc.com" className="text-blue-800 underline">
-                support@elisc.com
+                divyeshmer369@gmail.com
               </a>
-              <p className="underline">Ave Street Avenue, New York</p>
+              <p className="underline">RAJKOT, GUJRAT</p>
             </div>
           </div>
 
@@ -54,8 +54,8 @@ function Contact() {
             loading="lazy"
             allowFullScreen
             referrerPolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.928456745859!2d-73.98813542427961!3d40.748817979327886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259af18f2558f%3A0x3d4654c159a9f789!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1710000000000"
-          ></iframe>
+         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9587.477134801755!2d70.75605196938379!3d22.29515199073474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1751458000370!5m2!1sen!2sin" />
+          
         </div>
       </div>
     </section>
