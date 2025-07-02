@@ -5,7 +5,7 @@ const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
   const [showFilters, setShowFilters] = useState(false);
 
-  const filters = ["All", "Web Design", "Development", "Mobile Apps", "UI/UX"];
+  const filters = ["All", "Web Design", "Development", "Open Source", "UI/UX"];
   
   const projects = [
     {
@@ -30,13 +30,13 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "Corporate Website Redesign",
+      title: "Online Learning Webside",
       category: "Web Design",
       description: "Modern redesign for a financial services company focusing on user experience",
       tags: ["Figma", "WordPress", "GSAP"],
-      image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80",
-      link: "#",
-      github: "#"
+      image: "https://plus.unsplash.com/premium_photo-1661767552224-ef72bb6b671f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGVkdWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
+      link: "https://edu-pasd.vercel.app/",
+      github: "https://github.com/divyesh0422/edu-pasd"
     },
     {
       id: 4,
