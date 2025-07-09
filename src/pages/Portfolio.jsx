@@ -60,13 +60,13 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      title: "Mobile Banking App",
+      title: "GameHaven",
       category: "Mobile Apps",
-      description: "Secure banking application with biometric authentication",
-      tags: ["Flutter", "Dart", "Node.js"],
-      image:"https://plus.unsplash.com/premium_photo-1712761997872-2963252bc19d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "#",
-      github: "#"
+      description: "A fun and interactive platform to explore, play, and manage your favorite games anytime, anywhere.",
+      tags: ["redux", "axios", "cloudflare"],
+      image:"https://plus.unsplash.com/premium_photo-1678112183791-498b49242d1c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGdhbWV8ZW58MHx8MHx8fDA%3D",
+      link: "https://game-shop-theta-one.vercel.app/",
+      github: "https://github.com/divyesh0422/Game-shop"
     }
   ];
 
