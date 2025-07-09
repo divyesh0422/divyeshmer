@@ -31,9 +31,9 @@ const Sidebar = () => {
   ];
 
   const socialLinks = [
-    { name: 'GitHub', url: 'https://github.com', icon: <FaGithub size={18} /> },
-    { name: 'LinkedIn', url: 'https://linkedin.com', icon: <FaLinkedin size={18} /> },
-    { name: 'Twitter', url: 'https://twitter.com', icon: <FaTwitter size={18} /> },
+    { name: 'GitHub', url: 'https://github.com/divyesh0422', icon: <FaGithub size={18} /> },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/divyeshmer/', icon: <FaLinkedin size={18} /> },
+    { name: 'Twitter', url: 'https://x.com/divyeshmer41434', icon: <FaTwitter size={18} /> },
   ];
 
   return (
