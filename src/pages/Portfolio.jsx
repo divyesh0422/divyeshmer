@@ -51,12 +51,12 @@ const Portfolio = () => {
     {
       id: 5,
       title: "GitHub Profile Viewer",
-      category: "Development",
-      description: "Table reservation platform with real-time availability",
-      tags: ["Vue.js", "Laravel", "MySQL"],
+      category: "API",
+      description: "A sleek app to search and view detailed GitHub user profiles, including repos, followers, and more.",
+      tags: ["React ", "API"," redux"],
       image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2l0aHVifGVufDB8fDB8fHww",
-      link: "#",
-      github: "#"
+      link: "https://git-hub-profile-viewer-ashen.vercel.app/",
+      github: "https://github.com/divyesh0422/GitHub-Profile-Viewer"
     },
     {
       id: 6,
