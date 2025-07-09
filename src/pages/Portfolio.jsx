@@ -44,9 +44,9 @@ const Portfolio = () => {
       category: "UI/UX",
       description: "Custom design system for SaaS analytics dashboard",
       tags: ["Sketch", "Storybook", "Design Systems"],
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
-      link: "#",
-      github: "#"
+      image: "https://unsplash.com/photos/a-woman-in-a-white-lab-coat-writing-on-a-notebook-0X-1-9lpEbM",
+      link: "https://medical-website-657.vercel.app/",
+      github: "https://github.com/divyesh0422/Medical_Website--657"
     },
     {
       id: 5,
