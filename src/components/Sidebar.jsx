@@ -15,17 +15,22 @@ const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
-  // Close sidebar on route change
+  // Close sidebar when route changes
   useEffect(() => {
     setIsOpen(false);
   }, [location]);
 
+  // Prevent background scroll when sidebar is open (mobile)
+  useEffect(() => {
+    document.body.style.overflow = isOpen ? 'hidden' : 'auto';
+    return () => (document.body.style.overflow = 'auto');
+  }, [isOpen]);
+
   const navItems = [
     { name: 'Home', path: '/', icon: <FiHome size={20} /> },
     { name: 'About', path: '/about', icon: <FiUser size={20} /> },
-      { name: 'Services', path: '/Services', icon: <FiFileText size={20} /> },
+    { name: 'Services', path: '/services', icon: <FiFileText size={20} /> },
     { name: 'Portfolio', path: '/portfolio', icon: <FiBriefcase size={20} /> },
-  
     { name: 'Blog', path: '/blog', icon: <FiFileText size={20} /> },
     { name: 'Contact', path: '/contact', icon: <FiMail size={20} /> },
   ];
@@ -56,16 +61,18 @@ const Sidebar = () => {
       )}
 
       {/* Sidebar */}
-     <aside className={`fixed inset-y-0 left-0 w-64 bg-white shadow-lg z-20 transform transition-all duration-300 ease-in-out 
-  ${isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}
->
+      <aside 
+        className={`fixed inset-y-0 left-0 w-64 bg-white shadow-lg z-50 transform transition-all duration-300 ease-in-out 
+        ${isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}
+      >
         <div className="flex flex-col h-full p-6">
           {/* Logo */}
           <Link 
             to="/" 
             className="text-2xl font-bold text-gray-800 mb-10 mt-4 hover:text-blue-600 transition-colors"
+            onClick={() => setIsOpen(false)}
           >
-          Divyesh Mer
+            Divyesh Mer
           </Link>
 
           {/* Navigation */}
@@ -82,6 +89,10 @@ const Sidebar = () => {
                           : 'text-gray-600 hover:bg-gray-100'
                       }`
                     }
+                    onClick={() => {
+                      // Fix mobile route click issue
+                      setTimeout(() => setIsOpen(false), 150);
+                    }}
                   >
                     <span className="mr-3">{item.icon}</span>
                     {item.name}
@@ -108,7 +119,7 @@ const Sidebar = () => {
               ))}
             </div>
             <p className="text-center text-gray-500 text-sm mt-4">
-              &copy; {new Date().getFullYear()} John Doe
+              &copy; {new Date().getFullYear()} Divyesh Mer
             </p>
           </div>
         </div>
