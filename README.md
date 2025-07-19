@@ -1,12 +1,38 @@
-# React + Vite
+# 💼 Divyesh's Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+This is where I showcase my latest projects, skills, and experiences as a **Front-End Web Developer** specializing in **React.js**, **Tailwind CSS**, and modern web technologies.
 
-Currently, two official plugins are available:
+## 🚀 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 [Visit Portfolio](https://divyeshmer.vercel.app/)  
+📌 [GitHub Repository](https://github.com/divyesh0422/divyeshmer)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## 🛠 Tech Stack
+
+- ⚛️ React.js
+- 🎨 Tailwind CSS
+- 🌙 Dark Mode Support
+- 🎬 Framer Motion (for smooth animations)
+- 🌐 React Router (multi-page support)
+- 📦 Reusable UI Components
+
+---
+
+## 📁 Folder Structure
+
+```bash
+├── public/
+│   └── assets/           # Images and static files
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Pages like Home, About, Projects, Contact
+│   ├── routes/           # React Router routes
+│   ├── context/          # Theme or global context
+│   └── App.jsx           # Main app
+├── tailwind.config.js
+└── README.md
